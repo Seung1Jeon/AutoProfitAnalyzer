@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pybo/', include('pybo.urls')),
+    path('', include('pybo.urls')),  # 루트 URL도 pybo로 연결
 ]
 
 # 개발 환경에서 정적 파일 제공
