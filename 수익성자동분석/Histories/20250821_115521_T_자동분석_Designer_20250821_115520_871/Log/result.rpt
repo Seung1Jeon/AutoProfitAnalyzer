@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="354ddf04-9384-4eb5-be4f-65443917acbd" name="T_자동분석" result="Pass" detail="{}" start="2025-08-21T02:55:32.609" end="2025-08-21T02:55:32.845" jobId="Designer_20250821_115520_871">
+  <Step id="Sa74b8cb6da8f40bbac331e5bcc6363cb" taskName="T_자동분석" type="Desktop" name="ExecuteCmd" displayName="ExecuteCmd" callDepth="1" depth="1" num="31" result="Pass" start="2025-08-21T02:55:32.673" end="2025-08-21T02:55:32.841" displayTime="0.2s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'python'" runtimeType="String" key="Command_Command" displayKey="Command" visible="true" required="true" />
+      <Property value="'C:Users&#x3;CLASS_018DesktopPymonetPymonetmain.py'" runtimeType="String" key="Command_Arguments" displayKey="Arguments" visible="true" required="false" />
+      <Property value="10000" runtimeType="Integer" key="Command_Timeout" displayKey="Timeout(ms)" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; RESULT : '[STD_ERR] python: can\'t open file \'C:\\\\Users\\\\3CLASS_018\\\\AppData\\\\Roaming\\\\Br ... 103 more" runtimeType="String" key="Command_Output" displayKey="Output" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00701" />
+    <Info name="Resolution" value="1920 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-NCP7X" />
+  </JobInfo>
+</Result>

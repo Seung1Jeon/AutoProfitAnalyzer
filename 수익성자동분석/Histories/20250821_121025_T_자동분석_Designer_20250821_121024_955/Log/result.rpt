@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="354ddf04-9384-4eb5-be4f-65443917acbd" name="T_자동분석" result="Pass" detail="{}" start="2025-08-21T03:10:27.782" end="2025-08-21T03:10:33.748" jobId="Designer_20250821_121024_955">
+  <Step id="S0ffb1f71170e413c8f3c179e0308d93f" taskName="T_자동분석" type="Net" name="SendMail" displayName="SendMail" callDepth="1" depth="1" num="41" result="Pass" start="2025-08-21T03:10:27.850" end="2025-08-21T03:10:33.731" displayTime="5.9s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'smtp.gmail.com'" runtimeType="String" key="Mail_HostName" displayKey="Host Name" visible="true" required="true" />
+      <Property value="25" runtimeType="Integer" key="Mail_Port" displayKey="Port" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Mail_UseSSL" displayKey="Use SSL" visible="true" required="true" />
+      <Property value="'rkdalstj0612@gmail.com'" runtimeType="String" key="Mail_ID" displayKey="ID" visible="true" required="true" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="Mail_Password" displayKey="Password" visible="true" required="true" />
+      <Property value="'rkdalstj0612@gmail.com'" runtimeType="String" key="Mail_Sender" displayKey="Sender" visible="true" required="true" />
+      <Property value="'rkdalstj0612@gmail.com'" runtimeType="String" key="Mail_Receivers" displayKey="Receivers" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Mail_CCs" displayKey="CCs" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Mail_BCCs" displayKey="BCCs" visible="true" required="false" />
+      <Property value="'hi'" runtimeType="String" key="Mail_Subject" displayKey="Subject" visible="true" required="true" />
+      <Property value="'김다인'" runtimeType="String" key="Mail_Body" displayKey="Body" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mail_IsHtml" displayKey="IsHtml" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Mail_Attachments" displayKey="Attachements" visible="true" required="false" />
+      <Property value="20" runtimeType="Integer" key="Mail_CheckFileSize" displayKey="File Size (MB)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00701" />
+    <Info name="Resolution" value="1920 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-NCP7X" />
+  </JobInfo>
+</Result>

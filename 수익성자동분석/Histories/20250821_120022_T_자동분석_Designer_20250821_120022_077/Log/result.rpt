@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="354ddf04-9384-4eb5-be4f-65443917acbd" name="T_자동분석" result="Stop" detail="Process: T_자동분석&#xA;Step: Delay (38/41)&#xA;&#xA;Stopped by User" start="2025-08-21T03:00:24.823" end="2025-08-21T03:01:13.688" jobId="Designer_20250821_120022_077">
+  <Step id="Sa74b8cb6da8f40bbac331e5bcc6363cb" taskName="T_자동분석" type="Desktop" name="ExecuteCmd" displayName="ExecuteCmd" callDepth="1" depth="1" num="31" result="Pass" start="2025-08-21T03:00:24.885" end="2025-08-21T03:00:25.045" displayTime="0.2s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'python'" runtimeType="String" key="Command_Command" displayKey="Command" visible="true" required="true" />
+      <Property value="'C:Users&#x3;CLASS_018DesktopPymonetPymonetmain.py'" runtimeType="String" key="Command_Arguments" displayKey="Arguments" visible="true" required="false" />
+      <Property value="10000" runtimeType="Integer" key="Command_Timeout" displayKey="Timeout(ms)" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; RESULT : '[STD_ERR] python: can\'t open file \'C:\\\\Users\\\\3CLASS_018\\\\AppData\\\\Roaming\\\\Br ... 103 more" runtimeType="String" key="Command_Output" displayKey="Output" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb4f3272faf2746e5bcdca1cd62aa3264" taskName="T_자동분석" type="Flow" name="ForLoop" displayName="Loop" callDepth="1" depth="1" num="32" result="Pass" start="2025-08-21T03:00:25.060" end="2025-08-21T03:00:25.061" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_LoopType" displayKey="Loop Type" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Conditions_IterationCount" displayKey="Iteration Count" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Conditions_IterationVariable" displayKey="Iteration Variable" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_StartIndex" displayKey="Start Index (0부터 시작)" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Conditions_ListVariable" displayKey="List Variable" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Conditions_ItemVariable" displayKey="Item Variable" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Conditions_Start" displayKey="Start Index (0부터 시작)" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Conditions_Count" displayKey="Iteration Count" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T03:00:25.076" end="2025-08-21T03:00:25.088" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S44c24123b54943969e476c844a5ab4c5" taskName="T_자동분석" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="2" num="35" result="Pass" start="2025-08-21T03:00:25.106" end="2025-08-21T03:00:25.108" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.v_결과파일생성확인 == true" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2017dd0cae6a4606b97bb8601cb10271" taskName="T_자동분석" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="3" num="37" result="Pass" start="2025-08-21T03:00:25.122" end="2025-08-21T03:00:25.123" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S6818f9e870af47979055801bd69542ca" taskName="T_자동분석" type="Flow" name="Delay" displayName="Delay" callDepth="1" depth="2" num="38" result="Pass" start="2025-08-21T03:00:25.138" end="2025-08-21T03:00:35.155" displayTime="10s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Conditions_Second" displayKey="Second" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Conditions_Millisecond" displayKey="Millisecond" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T03:00:35.171" end="2025-08-21T03:00:35.171" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S44c24123b54943969e476c844a5ab4c5" taskName="T_자동분석" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="2" num="35" result="Pass" start="2025-08-21T03:00:35.186" end="2025-08-21T03:00:35.187" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.v_결과파일생성확인 == true" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2017dd0cae6a4606b97bb8601cb10271" taskName="T_자동분석" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="3" num="37" result="Pass" start="2025-08-21T03:00:35.202" end="2025-08-21T03:00:35.202" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S6818f9e870af47979055801bd69542ca" taskName="T_자동분석" type="Flow" name="Delay" displayName="Delay" callDepth="1" depth="2" num="38" result="Pass" start="2025-08-21T03:00:35.218" end="2025-08-21T03:00:45.223" displayTime="10s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Conditions_Second" displayKey="Second" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Conditions_Millisecond" displayKey="Millisecond" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T03:00:45.238" end="2025-08-21T03:00:45.241" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S44c24123b54943969e476c844a5ab4c5" taskName="T_자동분석" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="2" num="35" result="Pass" start="2025-08-21T03:00:45.253" end="2025-08-21T03:00:45.255" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.v_결과파일생성확인 == true" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2017dd0cae6a4606b97bb8601cb10271" taskName="T_자동분석" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="3" num="37" result="Pass" start="2025-08-21T03:00:45.269" end="2025-08-21T03:00:45.270" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S6818f9e870af47979055801bd69542ca" taskName="T_자동분석" type="Flow" name="Delay" displayName="Delay" callDepth="1" depth="2" num="38" result="Pass" start="2025-08-21T03:00:45.284" end="2025-08-21T03:00:55.299" displayTime="10s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Conditions_Second" displayKey="Second" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Conditions_Millisecond" displayKey="Millisecond" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T03:00:55.315" end="2025-08-21T03:00:55.316" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S44c24123b54943969e476c844a5ab4c5" taskName="T_자동분석" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="2" num="35" result="Pass" start="2025-08-21T03:00:55.330" end="2025-08-21T03:00:55.331" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.v_결과파일생성확인 == true" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2017dd0cae6a4606b97bb8601cb10271" taskName="T_자동분석" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="3" num="37" result="Pass" start="2025-08-21T03:00:55.346" end="2025-08-21T03:00:55.346" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S6818f9e870af47979055801bd69542ca" taskName="T_자동분석" type="Flow" name="Delay" displayName="Delay" callDepth="1" depth="2" num="38" result="Pass" start="2025-08-21T03:00:55.361" end="2025-08-21T03:01:05.366" displayTime="10s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Conditions_Second" displayKey="Second" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Conditions_Millisecond" displayKey="Millisecond" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T03:01:05.382" end="2025-08-21T03:01:05.384" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S44c24123b54943969e476c844a5ab4c5" taskName="T_자동분석" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="2" num="35" result="Pass" start="2025-08-21T03:01:05.397" end="2025-08-21T03:01:05.399" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.v_결과파일생성확인 == true" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2017dd0cae6a4606b97bb8601cb10271" taskName="T_자동분석" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="3" num="37" result="Pass" start="2025-08-21T03:01:05.413" end="2025-08-21T03:01:05.414" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S6818f9e870af47979055801bd69542ca" taskName="T_자동분석" type="Flow" name="Delay" displayName="Delay" callDepth="1" depth="2" num="38" result="Stop" start="2025-08-21T03:01:05.430" end="2025-08-21T03:01:13.688" displayTime="8.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Conditions_Second" displayKey="Second" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Conditions_Millisecond" displayKey="Millisecond" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00701" />
+    <Info name="Resolution" value="1920 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-NCP7X" />
+  </JobInfo>
+</Result>

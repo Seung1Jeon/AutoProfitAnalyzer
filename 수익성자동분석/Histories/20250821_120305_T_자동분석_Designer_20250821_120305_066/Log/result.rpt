@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="354ddf04-9384-4eb5-be4f-65443917acbd" name="T_자동분석" result="Pass" detail="{}" start="2025-08-21T03:03:07.816" end="2025-08-21T03:03:08.246" jobId="Designer_20250821_120305_066">
+  <Step id="S46ea526715374fc1a36bcbd6b767a2cf" taskName="T_자동분석" type="Desktop" name="ExecuteFile" displayName="ExecuteFile" callDepth="1" depth="1" num="32" result="Pass" start="2025-08-21T03:03:07.888" end="2025-08-21T03:03:08.239" displayTime="0.4s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\main.py'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="RESULT : 5268" runtimeType="Integer" key="Command_Output" displayKey="Output" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Command_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00701" />
+    <Info name="Resolution" value="1920 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-NCP7X" />
+  </JobInfo>
+</Result>

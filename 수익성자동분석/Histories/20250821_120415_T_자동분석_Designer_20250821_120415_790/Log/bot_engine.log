@@ -1,0 +1,1151 @@
+﻿2025-08-21 12:03:37,972 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.125.00701 at 2025-08-21 오후 12:03:37
+EngineID: D_20250821_120337_199
+PID : 8988
+PPID: 12136
+Working Directory: C:\Users\3CLASS_018\AppData\Roaming\Brity RPA Designer
+
+2025-08-21 12:03:37,989 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1080
+
+2025-08-21 12:03:38,200 [T1] INFO  Config
+Initialize Config
+
+2025-08-21 12:03:38,240 [T1] DEBUG Config
+Config Loaded
+
+2025-08-21 12:03:38,241 [T1] DEBUG Config
+Backup config file.
+
+2025-08-21 12:03:38,249 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2025-08-21 12:03:38,253 [T1] INFO  Config
+Initialize Resource Config
+
+2025-08-21 12:03:38,280 [T1] DEBUG Config
+Refresh Language Information
+
+2025-08-21 12:03:38,352 [T1] INFO  Config
+All Config Initialized.
+
+2025-08-21 12:03:38,358 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2025-08-21 12:03:38,360 [T1] DEBUG KeyManager
+Load device unique id.
+
+2025-08-21 12:03:38,368 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2025-08-21 12:03:38,371 [T1] INFO  Config
+Activated License Type : StandAloneDesigner
+
+2025-08-21 12:03:38,452 [T5] DEBUG JobService
+Connect to agent service
+
+2025-08-21 12:03:38,480 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2025-08-21 12:03:38,489 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2025-08-21 12:03:38,494 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2025-08-21 12:03:38,494 [T5] DEBUG JobService
+Open connection
+
+2025-08-21 12:03:38,500 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2025-08-21 12:03:38,511 [T5] DEBUG JobService
+Register engine to agent
+
+2025-08-21 12:03:38,522 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2025-08-21 12:03:38,522 [T5] DEBUG JobService
+Owner Process PID: 12136
+
+2025-08-21 12:03:38,525 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2025-08-21 12:03:38,709 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2025-08-21 12:03:38,870 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2025-08-21 12:03:39,016 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2025-08-21 12:03:39,114 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2025-08-21 12:03:39,215 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2025-08-21 12:03:39,265 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2025-08-21 12:03:39,450 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2025-08-21 12:03:39,502 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2025-08-21 12:03:39,574 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2025-08-21 12:03:39,644 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2025-08-21 12:03:39,718 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2025-08-21 12:03:39,787 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2025-08-21 12:03:39,877 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2025-08-21 12:03:39,985 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1080
+
+2025-08-21 12:03:40,012 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2025-08-21 12:03:40,106 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2025-08-21 12:03:40,166 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2025-08-21 12:03:40,243 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2025-08-21 12:03:40,259 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2025-08-21 12:03:40,275 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2025-08-21 12:03:40,290 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2025-08-21 12:03:40,306 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2025-08-21 12:03:40,321 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2025-08-21 12:03:40,337 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2025-08-21 12:03:40,367 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2025-08-21 12:03:40,384 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2025-08-21 12:03:40,413 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2025-08-21 12:03:40,429 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2025-08-21 12:03:40,445 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2025-08-21 12:03:40,460 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2025-08-21 12:03:40,476 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2025-08-21 12:03:40,491 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2025-08-21 12:03:40,508 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2025-08-21 12:03:40,523 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2025-08-21 12:03:40,537 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2025-08-21 12:03:40,814 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2025-08-21 12:03:40,825 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20250821_120337_199 -runtype ProcRunner -ppid 12136
+
+2025-08-21 12:03:40,826 [T1] DEBUG Config
+Refresh Language Information
+
+2025-08-21 12:03:40,826 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2025-08-21 12:04:16,148 [T9] INFO  JobService
+Start Job: T_자동분석 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2025-08-21 12:04:15",
+  "EndTime": null,
+  "JobId": "Designer_20250821_120415_790",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\T_자동분석.proc",
+  "ProcessId": "354ddf04-9384-4eb5-be4f-65443917acbd",
+  "ProcessVer": "",
+  "ProcessArgs": "S93b003a91b9f409c8efd6bd76b0023c3;;False",
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 12136,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20250821_120337_199",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\Histories\\20250821_120415_T_자동분석_Designer_20250821_120415_790",
+  "JobLogDir": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\Histories\\20250821_120415_T_자동분석_Designer_20250821_120415_790\\Log",
+  "JobScreenshotDir": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\Histories\\20250821_120415_T_자동분석_Designer_20250821_120415_790\\Log\\Screenshot"
+}
+
+2025-08-21 12:04:16,274 [T10] DEBUG JobService
+Waiting library loading...
+
+2025-08-21 12:04:16,276 [T10] DEBUG Config
+Reload User Settings
+
+2025-08-21 12:04:16,279 [T10] INFO  JobService
+Config Loading Completed.
+
+2025-08-21 12:04:16,279 [T10] DEBUG JobService
+Config Loading Time: 4 ms.
+
+2025-08-21 12:04:16,285 [T10] DEBUG JobService
+Check Shared Token
+
+2025-08-21 12:04:16,287 [T10] DEBUG TokenManager
+Load connection token
+
+2025-08-21 12:04:16,290 [T10] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2025-08-21 12:04:16,296 [T10] DEBUG ServerInformationClient
+get server features for engine bot from config.
+
+2025-08-21 12:04:16,297 [T10] INFO  Config
+Try to load server features from config.
+
+2025-08-21 12:04:16,300 [T10] INFO  TokenManager
+SecurityType : v2
+
+2025-08-21 12:04:16,303 [T10] INFO  JobService
+Shared Token - No Token
+
+2025-08-21 12:04:16,309 [T10] INFO  JobManager
+Create JobManager instance for job T_자동분석(Designer_20250821_120415_790)
+
+2025-08-21 12:04:16,317 [T10] INFO  JobRequest
+Job ID : Designer_20250821_120415_790
+Project Path  : C:\Users\3CLASS_018\Documents\Brity RPA Projects\수익성자동분석\수익성자동분석.proj
+Process Name  : T_자동분석
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 12136
+
+2025-08-21 12:04:16,319 [T11] INFO  JobRequest
+Start Callback Sender
+
+2025-08-21 12:04:16,319 [T11] DEBUG JobRequest
+Step Callback Interval: 500
+
+2025-08-21 12:04:16,361 [T10] DEBUG ProjectManager
+Set Project Information
+
+2025-08-21 12:04:16,385 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2025-08-21 12:04:16,387 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2025-08-21 12:04:16,403 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2025-08-21 12:04:16,429 [T11] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2025-08-21 12:04:17,287 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2025-08-21 12:04:17,299 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2025-08-21 12:04:17,300 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2025-08-21 12:04:17,301 [T11] DEBUG JobRequest
+Callback - State: Ready
+
+
+2025-08-21 12:04:17,301 [T14-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2025-08-21 12:04:17,303 [T11] DEBUG JobRequest
+Callback - State: Starting
+
+
+2025-08-21 12:04:17,304 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2025-08-21 12:04:17,304 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2025-08-21 12:04:17,317 [T11] DEBUG JobRequest
+Callback - State: Running
+
+
+2025-08-21 12:04:18,517 [T14-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2025-08-21 12:04:18,571 [T14-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2025-08-21 12:04:18,617 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_자동분석
+##############################################################
+354ddf04-9384-4eb5-be4f-65443917acbd
+T_자동분석
+
+
+2025-08-21 12:04:18,671 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_자동분석
+**************************************************************
+ - STEP 1: S93b003a91b9f409c8efd6bd76b0023c3 (2/42) - (1/37)
+ - [2] ChromeOpen
+
+
+2025-08-21 12:04:20,160 [T12] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2025-08-21 12:04:22,062 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 2: S6cc9c3004fd04e85b925ef40e6d0fdd5 (3/42) - (2/37)
+ - [3] ChromeSetText
+
+
+2025-08-21 12:04:22,267 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:22,335 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:22,374 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:22,385 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:22,386 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:22,664 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 3: S5b9a5119ec5d4b98859e97065b81b908 (4/42) - (3/37)
+ - [4] ChromeClick
+
+
+2025-08-21 12:04:25,738 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:25,763 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:25,768 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:25,773 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:25,774 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:26,028 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 4: S5247e0728d2e454a91ea50c676d7e8db (5/42) - (4/37)
+ - [5] ChromeClick
+
+
+2025-08-21 12:04:26,230 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:26,419 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:26,422 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:26,425 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:26,425 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:26,654 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 5: S6dd018e12b924c868442baabbec9c773 (6/42) - (5/37)
+ - [6] Delay
+
+
+2025-08-21 12:04:28,680 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 6: S01f5950adcd94307a99c16d45d9d60ac (7/42) - (6/37)
+ - [7] Click
+
+
+2025-08-21 12:04:28,857 [T12] DEBUG UIAEventHandler
+Start UIA event handler
+
+2025-08-21 12:04:29,066 [T12] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2025-08-21 12:04:29,066 [T12] DEBUG UIAEventHandler
+Waiting additional time 106 msec for the screen structure is changing. Requested interval: 200 msec.
+
+2025-08-21 12:04:29,104 [T12] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:29,112 [T12] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:29,205 [T12] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2025-08-21 12:04:29,376 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '재무분석'
+ - value: 'https://navercomp.wisereport.co.kr/v2/company/c103...'
+
+2025-08-21 12:04:29,840 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 7: S5b7c52c9ff954b5c827f234c6b2f03d2 (8/42) - (7/37)
+ - [8] GetGridItems
+
+
+2025-08-21 12:04:29,956 [T22] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:29,957 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:30,553 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:31,187 [T22] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:31,188 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:31,709 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:32,367 [T22] INFO  WinFinder
+Finding Object In App... Try: 3, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:32,367 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:32,884 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:33,520 [T22] INFO  WinFinder
+Finding Object In App... Try: 4, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:33,521 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:34,022 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:34,672 [T22] INFO  WinFinder
+Finding Object In App... Try: 5, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:34,673 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:35,188 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:35,824 [T22] INFO  WinFinder
+Finding Object In App... Try: 6, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:35,824 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:36,296 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:36,943 [T22] INFO  WinFinder
+Finding Object In App... Try: 7, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:36,944 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:37,412 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:38,048 [T22] INFO  WinFinder
+Finding Object In App... Try: 8, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:38,049 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:38,537 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:39,161 [T22] INFO  WinFinder
+Finding Object In App... Try: 9, IsLastTry: True. AppCount: 2
+
+2025-08-21 12:04:39,161 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'LG전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:39,238 [T22] DEBUG UIAElement
+마우스 포인터가 스크린 영역을 벗어났습니다: 565,1158 - {X=0,Y=0,Width=1920,Height=1080}
+
+2025-08-21 12:04:39,242 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '항목'
+ - value: ''
+
+2025-08-21 12:04:39,648 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 8: Sc462fc2cbcc1471f873c58d0ce679741 (9/42) - (8/37)
+ - [9] ExecuteScript
+
+
+2025-08-21 12:04:39,694 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 9: Sa5e87261111b4a8c8f93169ed4b7de65 (10/42) - (9/37)
+ - [10] ChromeSetText
+
+
+2025-08-21 12:04:39,707 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:39,714 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:39,718 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:39,724 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:39,726 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:39,927 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 10: S0ef0ed8a1bd24e39af2588c5508ab9c7 (11/42) - (10/37)
+ - [11] ChromeClick
+
+
+2025-08-21 12:04:42,940 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:42,946 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:42,949 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:42,951 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:42,952 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:43,247 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 11: Se79081bd299b497ca256db35b0b78eb0 (12/42) - (11/37)
+ - [12] ChromeClick
+
+
+2025-08-21 12:04:43,334 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:43,490 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:43,504 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:43,509 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:43,509 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:43,738 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 12: S4f40f9f368f24fa3b8f6ccadfd16f45b (13/42) - (12/37)
+ - [13] Delay
+
+
+2025-08-21 12:04:45,764 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 13: Sbdc43f675c0843f38ba005731d5e2703 (14/42) - (13/37)
+ - [14] Click
+
+
+2025-08-21 12:04:45,834 [T22] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:45,836 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:45,890 [T22] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2025-08-21 12:04:45,948 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '재무분석'
+ - value: 'https://navercomp.wisereport.co.kr/v2/company/c103...'
+
+2025-08-21 12:04:46,372 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 14: Sf2294982357a4e93b40592e6220c3bd3 (15/42) - (14/37)
+ - [15] GetGridItems
+
+
+2025-08-21 12:04:46,418 [T3] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:46,419 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:46,689 [T3] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:04:46,861 [T3] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:04:47,292 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:47,535 [T3] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:04:47,692 [T3] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:04:48,264 [T3] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:48,267 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:48,798 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:49,463 [T3] INFO  WinFinder
+Finding Object In App... Try: 3, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:49,465 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:49,976 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:50,581 [T3] INFO  WinFinder
+Finding Object In App... Try: 4, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:50,581 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:51,088 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:51,713 [T3] INFO  WinFinder
+Finding Object In App... Try: 5, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:51,715 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:52,224 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:52,868 [T3] INFO  WinFinder
+Finding Object In App... Try: 6, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:52,869 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:53,347 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:54,045 [T3] INFO  WinFinder
+Finding Object In App... Try: 7, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:04:54,046 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:54,562 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:55,184 [T3] INFO  WinFinder
+Finding Object In App... Try: 8, IsLastTry: True. AppCount: 2
+
+2025-08-21 12:04:55,185 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '삼성전자 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:04:55,261 [T3] DEBUG UIAElement
+마우스 포인터가 스크린 영역을 벗어났습니다: 580,1154 - {X=0,Y=0,Width=1920,Height=1080}
+
+2025-08-21 12:04:55,264 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '항목'
+ - value: ''
+
+2025-08-21 12:04:55,748 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 15: S651c3c6ce36c46d88ca2d998a7db39e7 (16/42) - (15/37)
+ - [16] ExecuteScript
+
+
+2025-08-21 12:04:55,810 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 16: Sf3955525e74446aea0436d2e3b81ee92 (17/42) - (16/37)
+ - [17] ChromeSetText
+
+
+2025-08-21 12:04:55,820 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:55,826 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:55,827 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:55,829 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:55,830 [T12] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:56,649 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 17: S7873e90650ce4d7390e472776e1240a9 (18/42) - (17/37)
+ - [18] ChromeClick
+
+
+2025-08-21 12:04:59,659 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:59,664 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:59,667 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:59,670 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:04:59,671 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:05:00,045 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 18: Sb7ee4e43da394efcbb0e4ec090bdfe85 (19/42) - (18/37)
+ - [19] ChromeClick
+
+
+2025-08-21 12:05:00,135 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:05:00,298 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:05:00,302 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:05:00,306 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:05:00,306 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2025-08-21 12:05:00,538 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 19: S678c235caf9e4ec5927b3501afac681b (20/42) - (19/37)
+ - [20] Delay
+
+
+2025-08-21 12:05:02,568 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 20: S457db753c1f84541bcd1a565b978785b (21/42) - (20/37)
+ - [21] Click
+
+
+2025-08-21 12:05:02,618 [T3] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:05:02,619 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:02,671 [T3] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2025-08-21 12:05:02,726 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '재무분석'
+ - value: 'https://navercomp.wisereport.co.kr/v2/company/c103...'
+
+2025-08-21 12:05:03,125 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 21: S7a9a6a50731b4525be680093fb0dcfde (22/42) - (21/37)
+ - [22] GetGridItems
+
+
+2025-08-21 12:05:03,159 [T10] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:05:03,160 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:03,389 [T10] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:05:03,591 [T10] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:05:04,384 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:04,622 [T10] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:05:04,786 [T10] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:05:05,317 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:05,398 [T10] DEBUG UIAHelper
+FromPoint - Next Found: Image, , -5,145,649,832
+
+2025-08-21 12:05:05,436 [T10] DEBUG UIAHelper
+FromPoint - Next Found: Image, , -5,145,649,832
+
+2025-08-21 12:05:05,807 [T10] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:05:05,808 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:06,295 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:06,654 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:07,301 [T10] INFO  WinFinder
+Finding Object In App... Try: 3, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:05:07,301 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:08,055 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:08,677 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:09,076 [T10] INFO  WinFinder
+Finding Object In App... Try: 4, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:05:09,076 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:09,567 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:09,986 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:10,630 [T10] INFO  WinFinder
+Finding Object In App... Try: 5, IsLastTry: False. AppCount: 2
+
+2025-08-21 12:05:10,630 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:11,368 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:12,005 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:12,419 [T10] INFO  WinFinder
+Finding Object In App... Try: 6, IsLastTry: True. AppCount: 2
+
+2025-08-21 12:05:12,422 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:12,728 [T10] DEBUG UIAHelper
+FromPoint - Next Found: Image, , -5,145,649,832
+
+2025-08-21 12:05:12,764 [T10] DEBUG UIAHelper
+FromPoint - Next Found: Image, , -5,145,649,832
+
+2025-08-21 12:05:12,807 [T10] DEBUG UIAHelper
+FromPoint - Next Found: Image, , -5,145,649,832
+
+2025-08-21 12:05:12,845 [T10] DEBUG UIAHelper
+FromPoint - Next Found: Image, , -5,145,649,832
+
+2025-08-21 12:05:13,179 [T10] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:05:13,328 [T10] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2025-08-21 12:05:13,452 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: '(40) YouTube - Chrome')
+
+2025-08-21 12:05:13,826 [T10] DEBUG WinElementTargetFinder
+## Object Find In App (name: 'SK하이닉스 : 네이버페이 증권 - Chrome')
+
+2025-08-21 12:05:14,294 [T10] DEBUG UIAElement
+마우스 포인터가 스크린 영역을 벗어났습니다: 580,1154 - {X=0,Y=0,Width=1920,Height=1080}
+
+2025-08-21 12:05:14,299 [T14-ScriptEngine] DEBUG WinFinder
+UI Inspection Time: 11 seconds.
+
+2025-08-21 12:05:14,299 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'BottomUp' method. (Total: 1)
+ - name: '항목'
+ - value: ''
+
+2025-08-21 12:05:14,759 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 22: Se60b66e36ab241339c85a97224b1ce62 (23/42) - (22/37)
+ - [23] ExecuteScript
+
+
+2025-08-21 12:05:14,775 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 23: Sce34626f824749fdb583481705c147e1 (24/42) - (23/37)
+ - [24] OpenExcel
+
+
+2025-08-21 12:05:18,445 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 24: Sd1ac32860eee4c56a4670736a96c9245 (25/42) - (24/37)
+ - [25] WriteRange
+
+
+2025-08-21 12:05:18,706 [T14-ScriptEngine] DEBUG WriteRange
+START - '수익성자동분석.xlsx', Init  startCell: (A1), total 1 rows, chuck 10000. 
+
+2025-08-21 12:05:18,768 [T14-ScriptEngine] DEBUG WriteRange
+END   - '수익성자동분석.xlsx', Final startCell: (A2)
+
+2025-08-21 12:05:18,845 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 25: S33c27cdc6afa4055a7c637d72a6d12b4 (26/42) - (25/37)
+ - [26] WriteRange
+
+
+2025-08-21 12:05:18,915 [T14-ScriptEngine] DEBUG WriteRange
+START - '수익성자동분석.xlsx', Init  startCell: (A2), total 32 rows, chuck 10000. 
+
+2025-08-21 12:05:18,945 [T14-ScriptEngine] DEBUG WriteRange
+END   - '수익성자동분석.xlsx', Final startCell: (A34)
+
+2025-08-21 12:05:18,984 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 26: Sc58a84d7caf246a990c5c37eb0309489 (27/42) - (26/37)
+ - [27] WriteRange
+
+
+2025-08-21 12:05:19,084 [T14-ScriptEngine] DEBUG WriteRange
+START - '수익성자동분석.xlsx', Init  startCell: (A1), total 1 rows, chuck 10000. 
+
+2025-08-21 12:05:19,093 [T14-ScriptEngine] DEBUG WriteRange
+END   - '수익성자동분석.xlsx', Final startCell: (A2)
+
+2025-08-21 12:05:19,124 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 27: S5db09271800f4761ad3218204ab2cea6 (28/42) - (27/37)
+ - [28] WriteRange
+
+
+2025-08-21 12:05:19,175 [T14-ScriptEngine] DEBUG WriteRange
+START - '수익성자동분석.xlsx', Init  startCell: (A2), total 32 rows, chuck 10000. 
+
+2025-08-21 12:05:19,194 [T14-ScriptEngine] DEBUG WriteRange
+END   - '수익성자동분석.xlsx', Final startCell: (A34)
+
+2025-08-21 12:05:19,232 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 28: S1e20c9f497e24512a3c028196802c0a7 (29/42) - (28/37)
+ - [29] WriteRange
+
+
+2025-08-21 12:05:19,343 [T14-ScriptEngine] DEBUG WriteRange
+START - '수익성자동분석.xlsx', Init  startCell: (A1), total 1 rows, chuck 10000. 
+
+2025-08-21 12:05:19,355 [T14-ScriptEngine] DEBUG WriteRange
+END   - '수익성자동분석.xlsx', Final startCell: (A2)
+
+2025-08-21 12:05:19,390 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 29: Sac510f79bb1b4dd8baba5e77d8e22324 (30/42) - (29/37)
+ - [30] WriteRange
+
+
+2025-08-21 12:05:19,460 [T14-ScriptEngine] DEBUG WriteRange
+START - '수익성자동분석.xlsx', Init  startCell: (A2), total 32 rows, chuck 10000. 
+
+2025-08-21 12:05:19,480 [T14-ScriptEngine] DEBUG WriteRange
+END   - '수익성자동분석.xlsx', Final startCell: (A34)
+
+2025-08-21 12:05:19,529 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 30: S46ea526715374fc1a36bcbd6b767a2cf (32/42) - (30/37)
+ - [32] ExecuteFile
+
+
+2025-08-21 12:05:19,808 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 31: Sb4f3272faf2746e5bcdca1cd62aa3264 (33/42) - (31/37)
+ - [33] Loop
+
+
+2025-08-21 12:05:19,823 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 32: Sc0fafdaf528c4f79adcbf9ae4874e8ef (34/42) - (32/37)
+ - [34] IsFileExist
+
+
+2025-08-21 12:05:19,839 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 33: S44c24123b54943969e476c844a5ab4c5 (36/42) - (33/37)
+ - [36] IfThen
+
+
+2025-08-21 12:05:19,855 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 34: S86102a05ec204d81b1be95d50e02cd9a (37/42) - (34/37)
+ - [37] Break
+
+
+2025-08-21 12:05:19,871 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 35: S763892f9579643f7a109355e57290719 (40/42) - (37/37)
+ - [40] End-Loop
+
+
+2025-08-21 12:05:19,872 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_자동분석
+
+2025-08-21 12:05:19,909 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_자동분석
+##############################################################
+354ddf04-9384-4eb5-be4f-65443917acbd
+T_자동분석
+
+
+2025-08-21 12:05:19,935 [T14-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2025-08-21 12:05:19,935 [T14-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2025-08-21 12:05:19,962 [T14-ScriptEngine] INFO  JobRunner
+Make report.
+
+2025-08-21 12:05:20,085 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2025-08-21 12:05:20,088 [T26] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2025-08-21 12:05:20,088 [T14-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2025-08-21 12:05:20,104 [T14-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2025-08-21 12:05:20,122 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2025-08-21 12:05:20,124 [T14-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2025-08-21 12:05:20,126 [T14-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2025-08-21 12:05:20,129 [T14-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2025-08-21 12:05:20,129 [T14-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2025-08-21 12:05:20,130 [T14-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2025-08-21 12:05:20,145 [T14-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2025-08-21 12:05:20,148 [T14-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2025-08-21 12:05:20,151 [T14-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2025-08-21 12:05:20,151 [T14-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2025-08-21 12:05:20,151 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2025-08-21 12:05:20,151 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2025-08-21 12:05:20,155 [T14-ScriptEngine] DEBUG JobDBManager
+Set last life-cycle state: Completed - {}
+
+2025-08-21 12:05:20,177 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2025-08-21 12:05:20,179 [T11] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2025-08-21 12:05:20,180 [T11] INFO  JobRequest
+Callback - EngineClosed
+
+2025-08-21 12:05:20,180 [T11] INFO  JobService
+Disconnect agent service
+
+2025-08-21 12:05:20,183 [T11] DEBUG JobRequest
+End of Callback Sender
+
+2025-08-21 12:05:20,194 [T14-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2025-08-21 12:05:20,194 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
+2025-08-21 12:05:20,194 [T1] INFO  EngineStarter
+EngineBOT MainWindow Closing
+
+2025-08-21 12:05:20,195 [T1] INFO  EngineStarter
+EngineBOT MainWindow Closed
+
+2025-08-21 12:05:20,197 [T1] INFO  EngineStarter
+EngineBOT Application Exit
+

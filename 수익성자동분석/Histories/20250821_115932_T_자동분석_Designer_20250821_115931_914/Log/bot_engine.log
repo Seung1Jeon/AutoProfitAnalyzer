@@ -1,0 +1,496 @@
+﻿2025-08-21 11:59:23,979 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.125.00701 at 2025-08-21 오전 11:59:23
+EngineID: D_20250821_115923_210
+PID : 9504
+PPID: 12136
+Working Directory: C:\Users\3CLASS_018\AppData\Roaming\Brity RPA Designer
+
+2025-08-21 11:59:23,999 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1080
+
+2025-08-21 11:59:24,239 [T1] INFO  Config
+Initialize Config
+
+2025-08-21 11:59:24,276 [T1] DEBUG Config
+Config Loaded
+
+2025-08-21 11:59:24,276 [T1] DEBUG Config
+Backup config file.
+
+2025-08-21 11:59:24,298 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2025-08-21 11:59:24,302 [T1] INFO  Config
+Initialize Resource Config
+
+2025-08-21 11:59:24,340 [T1] DEBUG Config
+Refresh Language Information
+
+2025-08-21 11:59:24,421 [T1] INFO  Config
+All Config Initialized.
+
+2025-08-21 11:59:24,428 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2025-08-21 11:59:24,430 [T1] DEBUG KeyManager
+Load device unique id.
+
+2025-08-21 11:59:24,437 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2025-08-21 11:59:24,439 [T1] INFO  Config
+Activated License Type : StandAloneDesigner
+
+2025-08-21 11:59:24,522 [T4] DEBUG JobService
+Connect to agent service
+
+2025-08-21 11:59:24,552 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2025-08-21 11:59:24,562 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2025-08-21 11:59:24,568 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2025-08-21 11:59:24,568 [T4] DEBUG JobService
+Open connection
+
+2025-08-21 11:59:24,574 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2025-08-21 11:59:24,587 [T4] DEBUG JobService
+Register engine to agent
+
+2025-08-21 11:59:24,600 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2025-08-21 11:59:24,600 [T4] DEBUG JobService
+Owner Process PID: 12136
+
+2025-08-21 11:59:24,603 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2025-08-21 11:59:24,767 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2025-08-21 11:59:24,953 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2025-08-21 11:59:25,133 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2025-08-21 11:59:25,249 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2025-08-21 11:59:25,330 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2025-08-21 11:59:25,379 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2025-08-21 11:59:25,551 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2025-08-21 11:59:25,605 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2025-08-21 11:59:25,683 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2025-08-21 11:59:25,758 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2025-08-21 11:59:25,835 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2025-08-21 11:59:25,913 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2025-08-21 11:59:26,024 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2025-08-21 11:59:26,142 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1080
+
+2025-08-21 11:59:26,169 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2025-08-21 11:59:26,270 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2025-08-21 11:59:26,336 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2025-08-21 11:59:26,408 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2025-08-21 11:59:26,423 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2025-08-21 11:59:26,439 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2025-08-21 11:59:26,454 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2025-08-21 11:59:26,470 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2025-08-21 11:59:26,486 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2025-08-21 11:59:26,502 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2025-08-21 11:59:26,517 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2025-08-21 11:59:26,532 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2025-08-21 11:59:26,547 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2025-08-21 11:59:26,563 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2025-08-21 11:59:26,578 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2025-08-21 11:59:26,593 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2025-08-21 11:59:26,609 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2025-08-21 11:59:26,626 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2025-08-21 11:59:26,641 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2025-08-21 11:59:26,657 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2025-08-21 11:59:26,661 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2025-08-21 11:59:26,933 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2025-08-21 11:59:26,944 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20250821_115923_210 -runtype ProcRunner -ppid 12136
+
+2025-08-21 11:59:26,945 [T1] DEBUG Config
+Refresh Language Information
+
+2025-08-21 11:59:26,945 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2025-08-21 11:59:32,270 [T8] INFO  JobService
+Start Job: T_자동분석 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2025-08-21 11:59:32",
+  "EndTime": null,
+  "JobId": "Designer_20250821_115931_914",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\T_자동분석.proc",
+  "ProcessId": "354ddf04-9384-4eb5-be4f-65443917acbd",
+  "ProcessVer": "",
+  "ProcessArgs": "Sc0fafdaf528c4f79adcbf9ae4874e8ef;;False",
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 12136,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20250821_115923_210",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\Histories\\20250821_115932_T_자동분석_Designer_20250821_115931_914",
+  "JobLogDir": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\Histories\\20250821_115932_T_자동분석_Designer_20250821_115931_914\\Log",
+  "JobScreenshotDir": "C:\\Users\\3CLASS_018\\Documents\\Brity RPA Projects\\수익성자동분석\\Histories\\20250821_115932_T_자동분석_Designer_20250821_115931_914\\Log\\Screenshot"
+}
+
+2025-08-21 11:59:32,397 [T5] DEBUG JobService
+Waiting library loading...
+
+2025-08-21 11:59:32,399 [T5] DEBUG Config
+Reload User Settings
+
+2025-08-21 11:59:32,402 [T5] INFO  JobService
+Config Loading Completed.
+
+2025-08-21 11:59:32,402 [T5] DEBUG JobService
+Config Loading Time: 4 ms.
+
+2025-08-21 11:59:32,408 [T5] DEBUG JobService
+Check Shared Token
+
+2025-08-21 11:59:32,411 [T5] DEBUG TokenManager
+Load connection token
+
+2025-08-21 11:59:32,413 [T5] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2025-08-21 11:59:32,420 [T5] DEBUG ServerInformationClient
+get server features for engine bot from config.
+
+2025-08-21 11:59:32,422 [T5] INFO  Config
+Try to load server features from config.
+
+2025-08-21 11:59:32,426 [T5] INFO  TokenManager
+SecurityType : v2
+
+2025-08-21 11:59:32,429 [T5] INFO  JobService
+Shared Token - No Token
+
+2025-08-21 11:59:32,435 [T5] INFO  JobManager
+Create JobManager instance for job T_자동분석(Designer_20250821_115931_914)
+
+2025-08-21 11:59:32,441 [T5] INFO  JobRequest
+Job ID : Designer_20250821_115931_914
+Project Path  : C:\Users\3CLASS_018\Documents\Brity RPA Projects\수익성자동분석\수익성자동분석.proj
+Process Name  : T_자동분석
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 12136
+
+2025-08-21 11:59:32,444 [T6] INFO  JobRequest
+Start Callback Sender
+
+2025-08-21 11:59:32,444 [T6] DEBUG JobRequest
+Step Callback Interval: 500
+
+2025-08-21 11:59:32,486 [T5] DEBUG ProjectManager
+Set Project Information
+
+2025-08-21 11:59:32,517 [T5] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2025-08-21 11:59:32,518 [T5] INFO  JobRunner
+Initialize Script Engine
+
+2025-08-21 11:59:32,536 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2025-08-21 11:59:32,555 [T6] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2025-08-21 11:59:33,396 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2025-08-21 11:59:33,409 [T5] INFO  JobRunnerHook
+HotKey Hook Started
+
+2025-08-21 11:59:33,409 [T5] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2025-08-21 11:59:33,411 [T6] DEBUG JobRequest
+Callback - State: Ready
+
+
+2025-08-21 11:59:33,411 [T11-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2025-08-21 11:59:33,412 [T6] DEBUG JobRequest
+Callback - State: Starting
+
+
+2025-08-21 11:59:33,413 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2025-08-21 11:59:33,413 [T11-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2025-08-21 11:59:33,426 [T6] DEBUG JobRequest
+Callback - State: Running
+
+
+2025-08-21 11:59:34,578 [T11-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2025-08-21 11:59:34,624 [T11-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2025-08-21 11:59:34,668 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_자동분석
+##############################################################
+354ddf04-9384-4eb5-be4f-65443917acbd
+T_자동분석
+
+
+2025-08-21 11:59:34,731 [T11-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_자동분석
+**************************************************************
+ - STEP 1: Sc0fafdaf528c4f79adcbf9ae4874e8ef (33/41) - (1/6)
+ - [33] IsFileExist
+
+
+2025-08-21 11:59:34,845 [T11-ScriptEngine] INFO  JobRequest
+ - STEP 2: S6ad4b549ac19478f9fa8f4196660d422 (34/41) - (2/6)
+ - [34] Debugger
+
+
+2025-08-21 11:59:34,883 [T11-ScriptEngine] INFO  JobRunner
+Try Pause
+
+2025-08-21 11:59:34,884 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Paused
+##############################################################
+
+
+2025-08-21 11:59:34,884 [T11-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Paused
+
+2025-08-21 11:59:34,886 [T11-ScriptEngine] DEBUG JobDBManager
+Set last life-cycle state: Paused
+
+2025-08-21 11:59:34,908 [T6] DEBUG JobRequest
+Callback - State: Paused
+
+
+2025-08-21 11:59:43,660 [T8] INFO  JobService
+ResumeJob
+
+2025-08-21 11:59:43,660 [T8] INFO  JobRunner
+Try Resume
+
+2025-08-21 11:59:43,661 [T8] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2025-08-21 11:59:43,661 [T8] INFO  JobRequest
+Last job life cycle state: Running
+
+2025-08-21 11:59:43,671 [T6] DEBUG JobRequest
+Callback - State: Running
+
+
+2025-08-21 11:59:43,686 [T11-ScriptEngine] INFO  JobRequest
+ - STEP 3: S44c24123b54943969e476c844a5ab4c5 (35/41) - (3/6)
+ - [35] IfThen
+
+
+2025-08-21 11:59:43,702 [T11-ScriptEngine] INFO  JobRequest
+ - STEP 4: S2017dd0cae6a4606b97bb8601cb10271 (37/41) - (5/6)
+ - [37] End-IfThen
+
+
+2025-08-21 11:59:43,717 [T11-ScriptEngine] INFO  JobRequest
+ - STEP 5: S6818f9e870af47979055801bd69542ca (38/41) - (6/6)
+ - [38] Delay
+
+
+2025-08-21 11:59:44,727 [T11-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_자동분석
+
+2025-08-21 11:59:44,738 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_자동분석
+##############################################################
+354ddf04-9384-4eb5-be4f-65443917acbd
+T_자동분석
+
+
+2025-08-21 11:59:44,768 [T11-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2025-08-21 11:59:44,769 [T11-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2025-08-21 11:59:44,773 [T11-ScriptEngine] INFO  JobRunner
+Make report.
+
+2025-08-21 11:59:44,807 [T11-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2025-08-21 11:59:44,808 [T11-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2025-08-21 11:59:44,808 [T10] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2025-08-21 11:59:44,808 [T11-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2025-08-21 11:59:44,810 [T11-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2025-08-21 11:59:44,831 [T11-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2025-08-21 11:59:44,833 [T11-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2025-08-21 11:59:44,838 [T11-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2025-08-21 11:59:44,838 [T11-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2025-08-21 11:59:44,841 [T11-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2025-08-21 11:59:44,841 [T11-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2025-08-21 11:59:44,841 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2025-08-21 11:59:44,841 [T11-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2025-08-21 11:59:44,841 [T11-ScriptEngine] DEBUG JobDBManager
+Set last life-cycle state: Completed - {}
+
+2025-08-21 11:59:44,851 [T6] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2025-08-21 11:59:44,854 [T11-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2025-08-21 11:59:44,868 [T6] INFO  JobRequest
+Callback - EngineClosed
+
+2025-08-21 11:59:44,869 [T6] INFO  JobService
+Disconnect agent service
+
+2025-08-21 11:59:44,870 [T6] DEBUG JobRequest
+End of Callback Sender
+

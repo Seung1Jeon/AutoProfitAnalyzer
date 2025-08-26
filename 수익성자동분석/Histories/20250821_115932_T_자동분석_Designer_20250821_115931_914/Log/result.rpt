@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="354ddf04-9384-4eb5-be4f-65443917acbd" name="T_자동분석" result="Pass" detail="{}" start="2025-08-21T02:59:34.658" end="2025-08-21T02:59:44.737" jobId="Designer_20250821_115931_914">
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T02:59:34.733" end="2025-08-21T02:59:34.827" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S6ad4b549ac19478f9fa8f4196660d422" taskName="T_자동분석" type="Flow" name="Debugger" displayName="Debugger" callDepth="1" depth="2" num="34" result="Pass" start="2025-08-21T02:59:34.845" end="2025-08-21T02:59:43.671" displayTime="8.8s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Message" displayKey="Message" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S44c24123b54943969e476c844a5ab4c5" taskName="T_자동분석" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="2" num="35" result="Pass" start="2025-08-21T02:59:43.686" end="2025-08-21T02:59:43.687" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.v_결과파일생성확인 == true" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2017dd0cae6a4606b97bb8601cb10271" taskName="T_자동분석" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="3" num="37" result="Pass" start="2025-08-21T02:59:43.702" end="2025-08-21T02:59:43.703" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S6818f9e870af47979055801bd69542ca" taskName="T_자동분석" type="Flow" name="Delay" displayName="Delay" callDepth="1" depth="2" num="38" result="Pass" start="2025-08-21T02:59:43.717" end="2025-08-21T02:59:44.735" displayTime="1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="1" runtimeType="Integer" key="Conditions_Second" displayKey="Second" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Conditions_Millisecond" displayKey="Millisecond" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00701" />
+    <Info name="Resolution" value="1920 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-NCP7X" />
+  </JobInfo>
+</Result>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="354ddf04-9384-4eb5-be4f-65443917acbd" name="T_자동분석" result="Stop" detail="Process: T_자동분석&#xA;Step: Debugger (34/41)&#xA;&#xA;Stopped by User" start="2025-08-21T02:58:56.026" end="2025-08-21T02:59:23.105" jobId="Designer_20250821_115853_180">
+  <Step id="Sc0fafdaf528c4f79adcbf9ae4874e8ef" taskName="T_자동분석" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="2" num="33" result="Pass" start="2025-08-21T02:58:56.116" end="2025-08-21T02:58:56.231" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.v_결과파일생성확인 : true" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S6ad4b549ac19478f9fa8f4196660d422" taskName="T_자동분석" type="Flow" name="Debugger" displayName="Debugger" callDepth="1" depth="2" num="34" result="Stop" start="2025-08-21T02:58:56.240" end="2025-08-21T02:59:23.105" displayTime="26.9s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property runtimeType="String" key="Conditions_Message" displayKey="Message" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00701" />
+    <Info name="Resolution" value="1920 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-NCP7X" />
+  </JobInfo>
+</Result>
