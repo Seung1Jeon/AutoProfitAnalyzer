@@ -1,0 +1,10 @@
+'C:\\RPA\\수익성자동분석\\수익성자동분석.xlsx'
+'C:\\Users\\전승원\\Documents\\GitHub\\AutoProfitAnalyzer\\수익성자동분석\\수익성자동분석.xlsx'
+
+'C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\main.py'
+'C:\\Users\\전승원\\Documents\\GitHub\\AutoProfitAnalyzer\\Pymonet\\main.py'
+
+"C:\\Users\\3CLASS_018\\Desktop\\Pymonet\\excels\\수익성_분석결과.xlsx"
+"C:\\Users\\전승원\\Documents\\GitHub\\AutoProfitAnalyzer\\Pymonet\\excels\\수익성_분석결과.xlsx"
+
+hnabtbgcizaauhax
